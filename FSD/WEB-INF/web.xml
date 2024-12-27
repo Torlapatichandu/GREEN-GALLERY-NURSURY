@@ -1,0 +1,31 @@
+<web-app>
+<servlet>
+	<servlet-name>First</servlet-name>
+	<servlet-class>Hello</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>First</servlet-name>
+	<url-pattern>/cse</url-pattern>
+</servlet-mapping>
+
+
+
+<servlet>
+	<servlet-name>Second</servlet-name>
+	<servlet-class>DateTime</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>Second</servlet-name>
+	<url-pattern>/csea</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+	<servlet-name>Third</servlet-name>
+	<servlet-class>Retrive</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>Third</servlet-name>
+	<url-pattern>/csm</url-pattern>
+</servlet-mapping>
+</web-app>

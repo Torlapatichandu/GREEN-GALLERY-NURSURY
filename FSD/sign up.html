@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            background-image: url("MAIN BACK.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+        .sign-up-form{
+            width: 300px;
+            box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+            background:white;
+            padding: 20px;
+            margin: 8% auto 0;
+            text-align: center;
+            padding-left: 100px;
+            padding-right: 100px;
+        }
+        .sign-up-form h1{
+            color: red;
+            margin-bottom: 30px;
+        }
+        .input-box
+        {
+            border-radius: 20px;
+            padding:10px;
+            margin:10px 0;
+            border:1px solid #999;
+            outline:none;
+    
+        }
+        button{
+            color: black;
+            background-color:yellowgreen;
+    
+            width: 100%;
+            padding: 10px;
+            border-radius: 20px;
+            font-size: 15px;
+            border: none;
+            outline:none;
+    
+            
+        }
+        s{
+    background-color:pink;
+        }
+        .s1{
+            background-color:blue;
+            color: aliceblue;
+        }
+        #NAG{
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+    </style>
+</head>
+
+    
+<body>
+    <div class="sign-up-form">
+        <h1>sign up now</h1>
+        <form action="signup" method="POST">
+           <h3 ID="NAG" >EMAIL:</h3> <input type="email" class="input-box" placeholder="enter email" required name="t1"><br>
+           <h3 ID="NAG" >PASSWORD</H3> <input type="password" class="input-box"  id="m" placeholder="enter password" required name="t2">
+            <H3 ID="NAG" >CONFIRM-PASSWORD</H3><input type="password" class="input-box" id="w" placeholder="confirm- password" required name="t3" >
+            <input type="submit" class="s" value="sign up"><hr> </form>
+            
+         
+       
+    </div>
+
+</body>
+</html>
